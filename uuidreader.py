@@ -15,6 +15,6 @@ for device in block_devices:
 
 print(uuid_list)
 
-myUSB_uuid = '91eb673f-ca10-4c66-b803-05f63e298a68'
+myUSB_uuid = <Input your UUID here>
 if myUSB_uuid in uuid_list:
     print("Special USB is plugged in. Deactivating watchdog")
