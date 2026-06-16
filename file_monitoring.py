@@ -146,7 +146,7 @@ if __name__ == "__main__":
                         if child.get('uuid'): # checks if there is a value assigned to the key 'uuid'
                             uuid_list.append(child['uuid'])
 
-                myUSB_uuid = '91eb673f-ca10-4c66-b803-05f63e298a68' # this is the admin USB's uuid
+                myUSB_uuid = <Input your own UUID here> # this is the admin USB's uuid
                 usb_connected = myUSB_uuid in uuid_list # True if the right USB's uuid is in the list otherwise, False
                 if usb_connected and not handler.is_paused:
                     print("Special USB is plugged in. Deactivating watchdog")
